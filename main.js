@@ -28,6 +28,5 @@ function getGitHubProfileInfos() {
     userPhoto.src = data.avatar_url,
     userLogin.textContent = data.login
   })
-
 }
 getGitHubProfileInfos()
